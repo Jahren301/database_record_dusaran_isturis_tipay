@@ -1,0 +1,10 @@
+<?php
+require_once "db.php";
+
+$record_id = $_GET['record_id'];
+
+$sql = "DELETE FROM member_registration_tbl WHERE member_id = '$record_id'";
+$result = $connect->query($sql);
+echo '<meta http-equiv="refresh" content="0; url=readmember.php">';
+
+?>
