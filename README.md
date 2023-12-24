@@ -1,0 +1,1 @@
+# database_record_dusaran_isturis_tipay
